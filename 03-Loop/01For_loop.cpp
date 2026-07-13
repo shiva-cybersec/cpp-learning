@@ -1,5 +1,6 @@
 //For Loops 
 //syntax for(initialization; condition; increment/decrement) {code}
+//iterator(here i name it (i) but you can name it anything you want)
 #include<iostream>
 using namespace std;
 int main(){
@@ -9,3 +10,4 @@ int main(){
     }
     return 0;
 }
+
