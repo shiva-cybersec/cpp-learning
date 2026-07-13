@@ -7,4 +7,4 @@ int main(){
     ch = 'a'; //variable assignment
     ch = 'b'; //variable updation
     
-}
+} 
