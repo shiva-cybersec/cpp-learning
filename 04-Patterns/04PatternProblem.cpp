@@ -4,19 +4,19 @@
 // ABCD
 // ABCD
 // ABCD
-#include <bits/stdc++.h>
-using namespace std;
-int main(){
-     int r;
-    cout<<"Enter no. of rows: ";
-    cin>>r;
-    for(int i = 1;i<=r;i++){ //for row
-        for(int j=1;j<=r;j++){ 
-            cout<<(char)(j+64)<<" "; //use 96 inplace of 64 is u want small abc
-        }
-        cout<<endl;
-    }
-}
+// #include <bits/stdc++.h>
+// using namespace std;
+// int main(){
+//      int r;
+//     cout<<"Enter no. of rows: ";
+//     cin>>r;
+//     for(int i = 1;i<=r;i++){ //for row
+//         for(int j=1;j<=r;j++){ 
+//             cout<<(char)(j+64)<<" "; //use 96 inplace of 64 is u want small abc
+//         }
+//         cout<<endl;
+//     }
+// }
 
 
 
