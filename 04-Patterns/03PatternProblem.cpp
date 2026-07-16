@@ -1,4 +1,4 @@
-//Pattern 3
+//Pattern 3 (Triangle Type-1 and Type-2)
 //Qn1. Print the Given Pattern.(Solid Triangle)
 // *
 // **

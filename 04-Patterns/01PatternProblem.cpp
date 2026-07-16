@@ -1,4 +1,4 @@
-//Pattern 1
+//Pattern 1 (Rectangle)
 //Qn1. Print the Given Pattern take rows and columns numbers as input(solid Rectangle)
 // *****
 // *****

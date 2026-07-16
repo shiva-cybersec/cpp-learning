@@ -1,4 +1,4 @@
-//Pattern 2
+//Pattern 2 (Square)
 //Qn1. Print the Given Pattern.(Solid Square)
 // ****
 // ****

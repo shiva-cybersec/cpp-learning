@@ -1,4 +1,4 @@
-//Pattern 4
+//Pattern 4 (Square and Traingle)
 //Qn1. Print the Given Pattern.(Solid Alphabets Square)
 // ABCD
 // ABCD
