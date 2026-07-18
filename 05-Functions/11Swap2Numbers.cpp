@@ -1,4 +1,4 @@
-// Qn1. WAP to swap 2 numbers;
+// Qn1. WAP to swap 2 numbers; (this doesn't work if u write swap code in different function outof the main function and try to call it to fix this we have pointer.)
 // Method 1: using extra variable
 // #include <iostream>
 // using namespace std;
