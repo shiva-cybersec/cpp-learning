@@ -45,3 +45,4 @@ int main(){
     cout << v[1] << " ";
     cout << v[2] << " ";
     cout << v[3] << " ";
+}
