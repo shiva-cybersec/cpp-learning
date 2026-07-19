@@ -4,30 +4,30 @@
 // An array name already represents the address of its first element.
 // So, 'arr' is the same as '&arr[0]'.
 
-// #include<iostream>
-// using namespace std;
-// int main(){
+#include<iostream>
+using namespace std;
+int main(){
 
-//     // Normal variable
-//     int x = 20;
-//     int *ptr1 = &x;      // Correct: stores the address of x
-//     // int *ptr1 = x;    // Incorrect: x is a value, not an address
+    // Normal variable
+    int x = 20;
+    int *ptr1 = &x;      // Correct: stores the address of x
+    // int *ptr1 = x;    // Incorrect: x is a value, not an address
 
-//     // Array
-//     int arr[] = {23, 44, 11, 2, 1, 90};
-//     int *ptr2 = arr;      // Correct: arr = &arr[0]
-//     // int *ptr2 = &arr;  // Incorrect: &arr is the address of the whole array
-//     ptr2 = &arr[2];       // Correct: stores the address of the third element
-//     // int *ptr2 = arr[2]; // Incorrect: arr[2] is a value, not an address
+    // Array
+    int arr[] = {23, 44, 11, 2, 1, 90};
+    int *ptr2 = arr;      // Correct: arr = &arr[0]
+    // int *ptr2 = &arr;  // Incorrect: &arr is the address of the whole array
+    ptr2 = &arr[2];       // Correct: stores the address of the third element
+    // int *ptr2 = arr[2]; // Incorrect: arr[2] is a value, not an address
 
-//     // Printing
-//     cout << "Value of x: " << x << endl;
-//     cout << "Value using ptr1: " << *ptr1 << endl;
+    // Printing
+    cout << "Value of x: " << x << endl;
+    cout << "Value using ptr1: " << *ptr1 << endl;
 
-//     cout << "First element of array: " << *arr << endl;
-//     cout << "Third element of array: " << *ptr2 << endl;
-//     return 0;
-// }
+    cout << "First element of array: " << *arr << endl;
+    cout << "Third element of array: " << *ptr2 << endl;
+    return 0;
+}
 
 /*
 Important Points:
@@ -62,6 +62,7 @@ int main(){
         cout << *ptr << " ";   // Print the value at the current address
         ptr++;                 // Move pointer to the next array element
     }
+    ptr = arr; // now again pointer in pointing at array first index address(&arr[0])
     return 0;
 }
 
@@ -69,3 +70,6 @@ int main(){
 Output:
 20 30 40 10 90
 */
+
+// After the loop, ptr points past the last element of the array.
+// To use it again from the beginning, reset it: ptr = arr;   // same as &arr[0]
