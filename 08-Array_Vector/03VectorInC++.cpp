@@ -26,6 +26,9 @@ using namespace std;
 int main(){
 
     vector<int> v;      // Creates an empty vector (size = 0, capacity = 0)
+    // vector<int> v(5); //initially creates a vector of size 5
+    // v.size(); #gives 5 because it stores garbage values
+    // v.capacity(); #cause we created initially memory of 5 boxes
 
     // Since size is 0, don't use [] to insert values.
     // Use push_back() to add elements.
