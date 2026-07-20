@@ -1,8 +1,8 @@
 // Checklist
 // 1) Passing array to functions ✅
-// 2) Dynamic allocation
-// 3) Vectors in C++
-// 4) Operations on Vector
+// 2) Dynamic allocation ✅
+// 3) Vectors in C++ ✅
+// 4) Operations on Vector ✅
 // 5) Problem on arrays and Two pointers
 
 // 1) Passing Array to Functions
