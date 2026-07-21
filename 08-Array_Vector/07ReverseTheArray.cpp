@@ -2,7 +2,8 @@
 //        using array or extra array and without using extra array(just loops)
 
 
-
+// In array we have only two ways to reverse the array either using while loop or using forloop
+// In vector we have so many options on top of while and for loops it's shown below
 #include<iostream>
 #include<vector>
 using namespace std;
