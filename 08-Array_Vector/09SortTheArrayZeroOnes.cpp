@@ -24,7 +24,7 @@ void betterSort01(vector<int> &v){
         if(v[i] == 0) i++;            // 0 is already in correct position
         if(v[j] == 1) j--;            // 1 is already in correct position
         if(i > j) break;              // Stop if pointers cross
-        if(v[i] == 1 && v[j] == 0){   // Wrong positions found
+        if(v[i] == 1 && v[j] == 0){   // Wrong positions found (to avoid writing break line this u can write this if statement on top or keep this inside else if instead of just if)
 
             // Swapping Method 1
             // int temp = v[i];
